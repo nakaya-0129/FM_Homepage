@@ -1,0 +1,140 @@
+#wrapper{
+width:100%;
+    }
+
+header ul{
+width:100%;
+height: 60px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding: 5px;
+    }
+
+header ul .logo{
+font-size:30px;
+color:blue;
+    }
+
+header ul li{
+font-size:20px;
+    }
+
+main #main__screen {
+height:100vh;
+background-size:cover;
+background-position:center;
+background-image:url("fm3.jpg");
+animation: 15s TopAnimation ;
+    }
+@keyframes TopAnimation{
+0%{
+background-image:url("fm3.jpg");
+    }
+50%{
+background-image:url("fm6.jpg");
+    }
+75%{
+background-image:url("fm4.jpg");
+}
+100%{
+background-image:url("fm_top.jpg");
+    }
+    }
+
+#about__screen .about__top{
+display:flex;
+justify-content:flex-start;
+margin:50px 0px 0px 100px;
+height:60vh;
+width:100%;
+}
+.about__top__image{
+position:relative;
+background-image:url("fm5.jpg");
+background-size:cover;
+background-position:center center;
+width: 40%;
+height:50vh;
+    }
+.about__top__text{
+position:absolute;
+top:930px;
+right:0px;
+width:50%;
+height:50vh;
+    }
+.about__top__text p{
+font-size:25px;
+letter-spacing: 2px;
+line-height:2em;
+    }
+.about__top__text .text__eng{
+font-size:25px;
+margin-bottom:40px;
+    }
+.about__top__text h3{
+font-size:40px;
+font-family:serif;
+  }
+
+.about__bottom{
+width:100%;
+height:60vh;
+display:flex;
+justify-content:flex-start;
+margin:50px 0px 0px 100px;
+    }
+.about__bottom__image{
+ background-image:url("fm4.jpg");
+ background-size:cover;
+ background-position:center center;
+ width:40%;
+ height:50vh;
+}
+
+.about__bottom__text{
+margin-left:40px;
+    }
+
+.about__bottom__text .text__eng{
+font-size:25px;
+margin-bottom:40px;
+    }
+.about__bottom__text h3{
+font-size:40px;
+font-family:serif;
+  }
+ p{
+font-size:25px;
+letter-spacing: 2px;
+line-height:2em;
+    }
+
+#footer{
+width:100%;
+height:100vh;
+}
+
+#footer .text__eng{
+font-size:30px;
+margin-bottom:10px;
+text-align:center;
+}
+#footer h3{
+text-align:center;
+font-size:25px;
+margin-bottom:30px;
+}
+
+#footer ul{
+display:flex;
+text-align:center;
+flex-direction:column;
+justify-content:center;
+}
+#footer li{
+font-size:20px;
+margin-bottom:20px;
+
+}
